@@ -1,0 +1,31 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('./b4130e95-cee6-4e67-acf2-06d0ea1bd2c5.jpg');
+    background-size: 100%;
+}
+
+div {
+    background-color: #000000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 80px;
+    border-radius: 15px;
+    color: #fff;
+}
+
+input{
+    background-color: #D99611;
+    border:none;
+    padding: 15px;
+    width: 100%;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 15px;
+}
+
+input:hover{
+    background-color: darkgoldenrod;
+    cursor: pointer;
+}

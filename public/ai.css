@@ -1,0 +1,113 @@
+/*geral*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+    color: #323232;
+    border: none;
+}
+
+input, label {
+    display: block;
+    width: 100%;
+}
+
+input:focus, label:focus {
+    outline: none;
+}
+
+a {
+    color: #D99611;
+}
+
+body {
+    padding-top: 5vh; /*view height seria uns 5% dependendo da tela*/
+    background-image: url('b4130e95-cee6-4e67-acf2-06d0ea1bd2c5.jpg');
+    background-size: cover; /* centralizar a imagem*/
+    background-position-y: -150px;
+}
+
+/* form*/
+
+#main-container {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+#main-container h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 1.6rem; /*adptada ao elemento root vai ser 1.6 root a menos do elemento da página*/
+}
+
+form {
+    display: flex; 
+    flex-wrap: wrap; /* serve para alinhar os elementos de uma melhor forma enquanto eu adiciono*/
+    justify-content: space-between; /* para criar um espaçamento entre um e outro*/
+}
+
+.full-box {
+    flex: 1 1 100%; /* serve para ele ocupar todo o espaço que tem para trabalhar*/
+    position: relative;
+}
+
+.half-box {
+    flex: 1 1 45%;
+}
+
+.spacing {
+    margin-right: 2.5%;
+}
+
+label {
+    font-weight: bold;
+    font-size: .8rem;
+}
+
+input {
+    border-bottom: 2px solid #323232;
+    padding: 10px;
+    font-size: .9rem;
+    margin-bottom: 40px;
+}
+
+input:focus {
+    border-color: #D99611;
+}
+
+input[type="submit"] {
+    background-color: #D99611;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    cursor: pointer;
+}
+
+#agreement {
+    margin-right: 5px;
+}
+
+#agreement, #agreement-label {
+    display: inline-block;
+    width: auto;
+}
+
+
+/*validações*/
+
+.error-validation {
+    color: #FF1A1A;
+    position: absolute;
+    top: 57px;
+    font-size: .8rem;
+}
+
+.template {
+    display: none;
+}

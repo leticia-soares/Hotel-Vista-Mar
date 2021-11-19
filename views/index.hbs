@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/pim.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Elsie Swash Caps" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montaga" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Monotype Corsiva" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body >
+    <div class="caixa">
+        <h1 id="titulo">Vista Mar</h1>
+
+    </div>
+    <div class="caixa">
+        <nav class="aiii">
+            <ul>
+                <li><a href="">SOBRE</a></li>
+                <li><a href="/index">HOME</a></li>
+                <li><a href="">QUARTOS</a></li>
+            </ul>
+        </nav>
+
+    </div>
+    <div class="caixa">
+
+        <nav class="uiii">
+            <ul class="letra">
+                <li><a href="">EVENTOS</a></li>
+                {{#if user}}
+                    <li><a href="/reserva">RESERVAS</a></li>
+                    <li><a href="/auth/logout">LOGOUT</a></li>
+                {{else}}
+                    <li><a href="/login">LOGIN</a></li>
+                    <li><a href="/register">CADASTRO</a></li>
+                {{/if}}
+            </ul>
+        </nav>
+    </div>
+    <div class="origin">
+        <h2>
+            Vista mar, um hotel
+        </h2>
+        <h1 id="yup">
+            para você se sentir 
+            em casa
+        </h1>
+        <p id="ui">
+            encontre aqui uma vasta seleção de quartos 
+            para passar momentos especiais, ao lado de pessoas especias, 
+            tendo uma vista de tirar o folego. Venha nos conhecer e passar momentos 
+            inesqueciveis ao lado de quem você ama.
+        </p>
+    </div>
+    <footer class="rodape">
+        <div class="upa">
+            <ul class="eiii">
+                <li class="merda">
+                    <a class="app"  href="https://web.whatsapp.com/send?phone=5512996801878" target="_blank"> <i class="fa fa-whatsapp" style="font-size: 30px" aria-hidden="true"></i> 
+                    </a>
+
+                </li> 
+                <li class="merda">
+                    <a class="app" href="https://www.facebook.com/leticia.soares.5817300" url="https://www.facebook.com/leticia.soares.5817300" target="_blank"> <i style="font-size:30px" class="fa">&#xf09a;</i></a>
+                    
+                </li>
+               
+                <li class="merda">
+                    <a class="app" href="" target="_blank"><i style="font-size:30px" class="fa">&#xf16d;</i></a>
+
+                </li>
+
+            </ul>
+         
+        </div>
+        <div>
+            <p class="copy1">&copy; Copyright Nishinoya-sama 2021</p>
+        </div>
+        
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+ 
+</body>
+</html>

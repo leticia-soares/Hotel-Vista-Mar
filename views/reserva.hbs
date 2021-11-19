@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/reserva.css">
+    <link rel="sortcut icon" href="/public/logo.png">
+    <title>Minhas Reservas</title>
+</head>
+<body>
+    <div id="log">
+        <a href="/auth/logout">Logout</a>
+    </div>
+    <div>
+        <img class="copy" src="/b4130e95-cee6-4e67-acf2-06d0ea1bd2c5.jpg">
+    </div>
+    <div id="main-container">
+        <h1>Reserve agora com a gente</h1>
+        <form id="register-form" action="/auth/register" method="post">
+            <div class="full-box">
+                <label for="email">Telefone para contato</label>
+                <input type="number" name="email" id="email" placeholder="Digite o seu Número aqui">
+            </div>
+            <div class="full-box">
+                <label for="email">Endereço</label>
+                <input type="text" name="name" id="name" placeholder="Digite o seu endereço aqui">
+            </div>
+            <div class="full-box">
+                <label for="email">CPF</label>
+                <input type="number" name="lastname" id="lastname" placeholder="Digite o seu CPF aqui">
+            </div>
+            <div class="full-box">
+                <label for="password">Forma de pagamento</label>
+                <br>
+                <select id="reser" name="reserva" form="frmReserva">
+                    <option value="Forma 1">Cartão</option>
+                    <option value="Forma 2">Boleto</option>
+                    <option value="Forma 3">Pix</option>
+                </select>
+                <br><br>
+            </div>
+            <br><br>
+            <div class="full-box">
+                <label for="reserva">Reservas</label>
+                <br>
+                <select id="reser" name="reserva" form="frmReserva">
+                    <option value="Quarto 1">Standard(R$349.90)</option>
+                    <option value="Quarto 2">Master(R$499.90)</option>
+                    <option value="Quarto 3">Deluxe(R$699.90)</option>
+                    <option value="Quarto 4">Vip(R$999.90)</option>
+                </select>
+            </div>
+            <br><br>
+            <br><br>
+            
+            <div class="full-box">
+                <input type="checkbox" name="agreement" id="agreement">
+                <label for="agreement" id="agreement-label">Eu li e aceito os <a href='#'>termos de uso</a></label>
+            </div>
+            <br><br>
+        </form>
+        <form action="/reserva" method="post">
+            <div class="full-box">
+                <input type="submit" id="btn-submit" value="Reservar">             
+            </div>     
+        </form>
+</body>
+<script type="text/javascript">
+    document.getElementById("btn-submit").onclick = function () {
+        location.href = "/reservado.hbs";
+    };
+</script>
+</html>

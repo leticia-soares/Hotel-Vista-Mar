@@ -1,0 +1,109 @@
+body {
+    padding: 20px 0 20px 0; 
+    overflow: hidden;
+    object-fit: cover;
+    background: url("b4130e95-cee6-4e67-acf2-06d0ea1bd2c5.jpg");
+    background-size: cover;
+}
+.caixa {
+	position: relative;
+	width: 1080px;
+	margin: 0 auto;
+}
+.uiii {
+	position: absolute;
+    right: 0;
+}
+
+ nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+.aiii {
+    position: absolute;
+    left: 0;
+}
+nav a {
+    font-family: Montserrat;
+	text-transform: uppercase;
+	color: #DFE0D8;
+	font-weight: bold;
+	font-size: 14px;
+	text-decoration: none;
+}
+nav a:hover {
+	color: #D99611;
+    font-size: 15px;
+	text-decoration: underline;
+}
+
+#titulo {
+    text-align: center;
+    font-family: Monotype Corsiva;
+    color: #DFE0D8;
+}
+.origin {
+        width: 940px;
+        margin: 0 auto;
+}
+
+h2 {
+    text-align: center;
+    padding-top: 100px;
+    font-family: Monotype Corsiva;
+    color: #DFE0D8;
+    font-size: 30px;
+}
+
+#yup {
+    text-align: center;
+    font-family: Elsie Swash Caps;
+    font-weight: bold;
+    font-size: 60px;
+    color: #E08422;
+
+}
+
+p {
+    text-align: center;
+    font-family: Montserrat;
+    color: #DFE0D8;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+footer {
+    text-align: center;
+    padding: 40px 0 40px 0;
+}
+.rodape {
+    position: relative;
+	width: 1080px;
+	margin: 0 auto;
+}
+
+.upa {
+    padding-top: 150px;
+}
+
+.merda {
+    display: inline;
+    text-align: center;
+    padding: 0 0 0 40px;
+}
+
+.app {
+    color: #DFE0D8;
+    display: inline;
+    padding-top: 300px;
+    margin-left: 50px;
+    margin-right: 115px;
+}
+
+.copy1 {
+    font-family: Montserrat;
+    font-size: 11px;
+    text-align: center;
+    padding-top: 30px;
+}
+
